@@ -1,1 +1,21 @@
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tablinks {
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.tabcontent {
+    display: none;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
 
