@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Meu Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="app"></div>
+    <div class="tabs">
+        <button class="tablinks" onclick="openTab(event, 'tab1')">Distribuição Geográfica</button>
+        <button class="tablinks" onclick="openTab(event, 'tab2')">Grau de Escolaridade</button>
+        <button class="tablinks" onclick="openTab(event, 'tab3')">Idade Média</button>
+    </div>
+    <div id="tab1" class="tabcontent">
+        <iframe src="https://raw.githubusercontent.com/seu_usuario/repositorio/mapa1.html"></iframe>
+    </div>
+    <div id="tab2" class="tabcontent">
+        <iframe src="https://raw.githubusercontent.com/seu_usuario/repositorio/mapa2.html"></iframe>
+    </div>
+    <div id="tab3" class="tabcontent">
+        <iframe src="https://raw.githubusercontent.com/seu_usuario/repositorio/mapa3.html"></iframe>
+    </div>
 
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="https://cdn.plot.ly/dash-latest.min.js"></script>
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
